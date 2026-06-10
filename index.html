@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Grocery Management System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1>🛒 Grocery Management System</h1>
+      <p>Manage Your Inventory with Ease</p>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <button class="nav-btn active" data-target="store" style="--btn-color: var(--secondary)">📦 Store</button>
+      <button class="nav-btn" data-target="prices" style="--btn-color: var(--success)">💰 Prices</button>
+      <button class="nav-btn" data-target="history" style="--btn-color: var(--warning)">📊 History</button>
+      <button class="nav-btn" data-target="dashboard" style="--btn-color: var(--purple)">📈 Dashboard</button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- content area -->
+    <section id="content" class="content">
+      <!-- initial area filled by JS -->
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
